@@ -1,0 +1,172 @@
+:root{
+  --cdb-bg-page: #FAF8EE;        /* fondo página */
+  --cdb-beige:   #cdb888;        /* beige de los avisos */
+  --cdb-beige-2: #f7efe1;        /* beige suave para tarjeta */
+  --cdb-beige-3: #cdb888;        /* hover tarjeta */
+  --cdb-text:    #000;           /* texto principal */
+  --cdb-accent:  #000;           /* acento (nombre) */
+  --cdb-border:  #000;           /* borde sutil */
+  --cdb-shadow:  0 1px 3px rgba(0,0,0,.08);
+  --cdb-shadow-2:0 3px 10px rgba(0,0,0,.12);
+}
+.cdb-empleado-card{ 
+  display:flex; align-items:center; gap:.75rem;
+  padding:12px 16px;
+  border:1px solid var(--cdb-border);
+  border-radius:12px;
+  background:var(--cdb-beige-2);
+  box-shadow:var(--cdb-shadow);
+  text-decoration:none;
+  transition:background .2s ease, box-shadow .2s ease, transform .15s ease;
+  color:var(--cdb-text);
+  max-width:520px;
+  margin-top:24px; /* mantener el margin-top:24px entre el formulario de disponibilidad y la tarjeta */
+}
+.cdb-empleado-card:hover,
+.cdb-empleado-card:focus-visible{
+  background:var(--cdb-beige-3);
+  box-shadow:var(--cdb-shadow-2);
+  transform:translateY(-1px);
+  outline:none;
+}
+.cdb-empleado-card:focus-visible{ box-shadow:0 0 0 3px rgba(160,82,45,.25), var(--cdb-shadow-2); }
+.cdb-empleado-card__text{display:grid; line-height:1.15}
+.cdb-empleado-card__label{
+  font-size:.8rem; color:#6a6a6a; margin-bottom:2px;
+  text-transform:none; letter-spacing:.2px;
+}
+.cdb-empleado-card__name{
+  color:#000;
+  font-weight:800;
+  font-size:1.25rem;
+  display:block;
+  margin-bottom:6px;
+}
+.cdb-empleado-card__meta{ display:block; }
+.cdb-empleado-card__meta-item{ display:block; font-size:.85rem; color:#5a5a5a; }
+.cdb-empleado-card__chev{
+  margin-left:auto; font-size:1.1rem; opacity:.6; transition:transform .15s ease, opacity .2s ease;
+}
+.cdb-empleado-card:hover .cdb-empleado-card__chev{ transform:translateX(2px); opacity:.9; }
+@media (max-width:480px){ .cdb-empleado-card__meta-item{ font-size:.9rem; } }
+@media (max-width:420px){
+  .cdb-empleado-card{ padding:10px 12px; border-radius:10px; }
+  .cdb-empleado-card__name{ font-size:1.15rem; }
+}
+/* --- Espaciado global de la tarjeta de empleado --- */
+.cdb-empleado-card{
+  margin-top: 24px;              /* separa del bloque "Actualizar Disponibilidad" */
+  margin-bottom: 16px;           /* separa de la barra de nivel */
+  padding: 16px 18px;            /* más aire interior */
+  line-height: 1.5;              /* legibilidad entre líneas */
+}
+
+/* Meta-info dentro de la tarjeta (cada línea) */
+.cdb-empleado-card__meta,
+.cdb-empleado-card__label,
+.cdb-empleado-card__name{
+  display: block;
+}
+
+/* Jerarquía y separación de líneas meta */
+.cdb-empleado-card__label{
+  margin-bottom: 4px;
+  font-size: .9rem;
+  color: #5a5a5a;
+}
+.cdb-empleado-card__name{
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+.cdb-empleado-card__meta{
+  margin-top: 4px;               /* espacio entre cada línea de métrica */
+  font-size: .92rem;
+}
+
+/* Flecha/chevron a la derecha con mejor respiro */
+.cdb-empleado-card__chev{
+  margin-left: auto;
+  padding-left: 8px;
+}
+
+/* --- Bloque "Actualizar Disponibilidad" --- */
+.cdb-disponibilidad-wrap{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  margin-bottom:12px;
+}
+@media (max-width:480px){
+  .cdb-disponibilidad-wrap{ gap:10px; }
+}
+
+/* --- Inicio de tabla "Tu experiencia laboral" --- */
+.cdb-experiencia-wrap{           /* si existe wrapper; si no, apuntar al contenedor de tabla que ya tenéis */
+  margin-top: 8px;               /* respiro desde la barra */
+}
+
+/* Filas más legibles sin cambiar densidad en exceso */
+.cdb-experiencia-wrap table tr td,
+.cdb-experiencia-wrap table tr th{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* --- Responsivo --- */
+@media (max-width: 480px){
+  .cdb-empleado-card{
+    padding: 14px 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .cdb-empleado-card__meta{
+    font-size: .9rem;
+  }
+  .cdb-barra-nivel-wrap{
+    margin-bottom: 20px;
+  }
+}
+
+/* Más espacio entre la tarjeta y la barra de nivel */
+.cdb-empleado-card {
+  margin-bottom: 28px; /* antes ~16–24px */
+}
+
+/* Si tienes wrapper de la barra, mantenemos separación inferior coherente */
+.cdb-barra-nivel-wrap,
+.cdb-barra-nivel--wrap {
+  margin-top: 20px;        /* desde la tarjeta */
+  margin-bottom: 28px;    /* hacia la tabla */
+}
+
+/* Números en negrita (todas las métricas) */
+.cdb-empleado-card .cdb-num {
+  font-weight: 700;
+}
+
+/* “Puntuación Total” y su valor: un poco más de énfasis */
+.cdb-empleado-card .cdb-meta--total {
+  font-weight: 800;
+}
+.cdb-empleado-card .cdb-meta--total .cdb-num {
+  font-weight: 800;
+}
+
+/* Legibilidad de líneas de meta */
+.cdb-empleado-card__meta {
+  display:block;
+  line-height:1.45;
+}
+.cdb-empleado-card__meta-item {
+  display:block;
+  margin-top:3px;
+}
+
+@media (max-width: 480px) {
+  .cdb-bienvenida-actualizar-btn {
+    font-size: 0.9rem;
+    padding: 0.4em 0.8em;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+}

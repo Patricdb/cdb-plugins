@@ -1,0 +1,899 @@
+# Spanish translations for PACKAGE package.
+# Copyright (C) 2025 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-02 22:11+0000\n"
+"PO-Revision-Date: 2025-08-02 22:11+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/config-mensajes.php:17 admin/config-mensajes.php:18
+#: admin/config-mensajes.php:211
+msgid "Configuración de Mensajes y Avisos"
+msgstr ""
+
+#: admin/config-mensajes.php:39
+msgid "Mensaje de Bienvenida"
+msgstr ""
+
+#: admin/config-mensajes.php:40
+msgid "Texto mostrado tras el saludo inicial."
+msgstr ""
+
+#: admin/config-mensajes.php:45
+msgid "Mensaje para Empleado sin perfil"
+msgstr ""
+
+#: admin/config-mensajes.php:46
+msgid "Se muestra a empleados que aún no han creado su perfil."
+msgstr ""
+
+#: admin/config-mensajes.php:51
+msgid "Mensaje para Empleado sin experiencia"
+msgstr ""
+
+#: admin/config-mensajes.php:52
+msgid "Se muestra a empleados con perfil pero sin experiencia registrada."
+msgstr ""
+
+#: admin/config-mensajes.php:57
+msgid "Acceso restringido sin inicio de sesión"
+msgstr ""
+
+#: admin/config-mensajes.php:58
+msgid "Se muestra a usuarios no autenticados."
+msgstr ""
+
+#: admin/config-mensajes.php:63
+msgid "Empleado no encontrado"
+msgstr ""
+
+#: admin/config-mensajes.php:64
+msgid "Aparece cuando no existe un empleado asociado al usuario."
+msgstr ""
+
+#: admin/config-mensajes.php:69
+msgid "Puntuación no disponible"
+msgstr ""
+
+#: admin/config-mensajes.php:70
+msgid "Se muestra cuando no hay puntuación gráfica registrada."
+msgstr ""
+
+#: admin/config-mensajes.php:75
+msgid "Listado de empleados vacío"
+msgstr ""
+
+#: admin/config-mensajes.php:76
+msgid "Se muestra cuando un listado de empleados no tiene resultados."
+msgstr ""
+
+#: admin/config-mensajes.php:81
+msgid "Búsqueda de bares sin resultados"
+msgstr ""
+
+#: admin/config-mensajes.php:82
+msgid "Se muestra cuando la búsqueda de bares no devuelve resultados."
+msgstr ""
+
+#: admin/config-mensajes.php:87
+msgid "Búsqueda de empleados sin resultados"
+msgstr ""
+
+#: admin/config-mensajes.php:88
+msgid "Se muestra cuando la búsqueda de empleados no devuelve resultados."
+msgstr ""
+
+#: admin/config-mensajes.php:93
+msgid "Experiencia sin perfil"
+msgstr ""
+
+#: admin/config-mensajes.php:94
+msgid ""
+"Aparece en el formulario de experiencia cuando falta el perfil de empleado."
+msgstr ""
+
+#: admin/config-mensajes.php:99
+msgid "Posición no válida"
+msgstr ""
+
+#: admin/config-mensajes.php:100
+msgid "Se muestra cuando falta una posición al listar empleados por posición."
+msgstr ""
+
+#: admin/config-mensajes.php:105
+msgid "Usuario sin bar registrado"
+msgstr ""
+
+#: admin/config-mensajes.php:106
+msgid ""
+"Se muestra cuando el usuario intenta actualizar un bar sin tener uno "
+"asignado."
+msgstr ""
+
+#: admin/config-mensajes.php:111
+msgid "Acceso sin permisos"
+msgstr ""
+
+#: admin/config-mensajes.php:112
+msgid ""
+"Se muestra cuando el usuario no tiene permisos para acceder a la sección."
+msgstr ""
+
+#: admin/config-mensajes.php:117
+msgid "Disponibilidad sin perfil"
+msgstr ""
+
+#: admin/config-mensajes.php:118
+msgid "Aparece al actualizar disponibilidad sin tener perfil de empleado."
+msgstr ""
+
+#: admin/config-mensajes.php:203
+msgid "No se pudo guardar: nombres de tipo/color duplicados."
+msgstr ""
+
+#: admin/config-mensajes.php:206 admin/diseno-empleado.php:90
+msgid "Opciones guardadas."
+msgstr ""
+
+#: admin/config-mensajes.php:212
+msgid ""
+"Este panel centraliza la gestión de mensajes/avisos de la experiencia de "
+"usuario CdB."
+msgstr ""
+
+#: admin/config-mensajes.php:213
+msgid "Si dejas un campo vacío se mostrará el texto por defecto"
+msgstr ""
+
+#: admin/config-mensajes.php:273
+msgid "Editar"
+msgstr ""
+
+#: admin/config-mensajes.php:275
+msgid "Frase destacada"
+msgstr ""
+
+#: admin/config-mensajes.php:277
+msgid "Frase secundaria"
+msgstr ""
+
+#: admin/config-mensajes.php:280
+msgid "Traducción actual:"
+msgstr ""
+
+#: admin/config-mensajes.php:281
+msgid "Tipo/Color"
+msgstr ""
+
+#: admin/config-mensajes.php:287
+msgid "Clase CSS:"
+msgstr ""
+
+#: admin/config-mensajes.php:292
+msgid "Tipos/Colores"
+msgstr ""
+
+#: admin/config-mensajes.php:293
+msgid ""
+"Selecciona colores de fondo y texto con suficiente contraste para garantizar "
+"la legibilidad."
+msgstr ""
+
+#: admin/config-mensajes.php:302 admin/enqueue.php:38
+msgid "Eliminar"
+msgstr ""
+
+#: admin/config-mensajes.php:306
+msgid "Añadir tipo/color"
+msgstr ""
+
+#: admin/config-mensajes.php:308
+msgid "Guardar cambios"
+msgstr ""
+
+#: admin/diseno-empleado.php:12 admin/diseno-empleado.php:13
+#: admin/diseno-empleado.php:35
+msgid "CdB Form"
+msgstr ""
+
+#: admin/diseno-empleado.php:22 admin/diseno-empleado.php:23
+#: admin/diseno-empleado.php:96
+msgid "Configuración Crear Empleado"
+msgstr ""
+
+#: admin/diseno-empleado.php:97
+msgid ""
+"Configura los estilos del formulario de empleado mostrado en el frontend. "
+"Estos cambios no afectan a otros formularios."
+msgstr ""
+
+#: admin/diseno-empleado.php:102
+msgid "Color de fondo del contenedor"
+msgstr ""
+
+#: admin/diseno-empleado.php:109
+msgid "Color de fondo del formulario"
+msgstr ""
+
+#: admin/diseno-empleado.php:116
+msgid "Color del borde del formulario"
+msgstr ""
+
+#: admin/diseno-empleado.php:123
+msgid "Color de texto de campos y etiquetas"
+msgstr ""
+
+#: admin/diseno-empleado.php:130
+msgid "Color de fondo del botón"
+msgstr ""
+
+#: admin/diseno-empleado.php:137
+msgid "Color de texto del botón"
+msgstr ""
+
+#: admin/diseno-empleado.php:144
+msgid "Tamaño de fuente de campos y etiquetas (px)"
+msgstr ""
+
+#: admin/diseno-empleado.php:148
+msgid "Padding del contenedor principal (px)"
+msgstr ""
+
+#: admin/diseno-empleado.php:152
+msgid "Espaciado vertical entre campos (px)"
+msgstr ""
+
+#: admin/diseno-empleado.php:156
+msgid "Color de mensajes de éxito"
+msgstr ""
+
+#: admin/diseno-empleado.php:163
+msgid "Color de mensajes de error"
+msgstr ""
+
+#: admin/diseno-empleado.php:170
+msgid "Márgenes del contenedor (px)"
+msgstr ""
+
+#: admin/diseno-empleado.php:172
+msgid "Superior"
+msgstr ""
+
+#: admin/diseno-empleado.php:173
+msgid "Derecho"
+msgstr ""
+
+#: admin/diseno-empleado.php:174
+msgid "Inferior"
+msgstr ""
+
+#: admin/diseno-empleado.php:175
+msgid "Izquierdo"
+msgstr ""
+
+#: admin/diseno-empleado.php:179
+msgid "Alineación del contenedor"
+msgstr ""
+
+#: admin/diseno-empleado.php:182
+msgid "Izquierda"
+msgstr ""
+
+#: admin/diseno-empleado.php:183
+msgid "Centro"
+msgstr ""
+
+#: admin/diseno-empleado.php:184
+msgid "Derecha"
+msgstr ""
+
+#: admin/enqueue.php:36 templates/busqueda-bares.php:19
+#: templates/busqueda-empleados-table.php:10
+#: templates/busqueda-empleados.php:20 templates/busqueda-bares-table.php:10
+msgid "Nombre"
+msgstr ""
+
+#: admin/enqueue.php:37
+msgid "Clase CSS"
+msgstr ""
+
+#: includes/messages.php:23
+msgid "Puntuación gráfica no disponible."
+msgstr ""
+
+#: includes/messages.php:23
+msgid "Añade más valoraciones para generar tu gráfico."
+msgstr ""
+
+#: includes/messages.php:24
+msgid "Empleado no encontrado."
+msgstr ""
+
+#: includes/messages.php:24
+msgid "Crea primero tu perfil de empleado para continuar."
+msgstr ""
+
+#: includes/messages.php:25
+msgid "Para registrar experiencia debes crear tu perfil."
+msgstr ""
+
+#: includes/messages.php:25
+msgid "Completa tu información de empleado y vuelve aquí."
+msgstr ""
+
+#: includes/messages.php:26 includes/messages.php:35
+msgid "No hay bares que coincidan con tu búsqueda."
+msgstr ""
+
+#: includes/messages.php:26
+msgid "Ajusta filtros o prueba con otro término."
+msgstr ""
+
+#: includes/messages.php:27
+msgid "Aún no hay empleados registrados."
+msgstr ""
+
+#: includes/messages.php:27
+msgid "¡Sé el primero en unirte al proyecto!"
+msgstr ""
+
+#: includes/messages.php:28
+msgid "Sin coincidencias para tu búsqueda."
+msgstr ""
+
+#: includes/messages.php:28
+msgid "Modifica los criterios e inténtalo de nuevo."
+msgstr ""
+
+#: includes/messages.php:29
+msgid "Debes iniciar sesión para acceder."
+msgstr ""
+
+#: includes/messages.php:29
+msgid "Inicia sesión o regístrate para continuar."
+msgstr ""
+
+#: includes/messages.php:30
+msgid "No tienes permisos para ver este contenido."
+msgstr ""
+
+#: includes/messages.php:30
+msgid "Contacta con un admin si crees que es un error."
+msgstr ""
+
+#: includes/messages.php:31
+msgid "Empleado creado correctamente."
+msgstr ""
+
+#: includes/messages.php:31
+msgid "El perfil se ha guardado sin problemas."
+msgstr ""
+
+#: includes/messages.php:32
+msgid "Error al crear empleado."
+msgstr ""
+
+#: includes/messages.php:32 includes/messages.php:37 includes/messages.php:39
+msgid "Inténtalo de nuevo más tarde."
+msgstr ""
+
+#: includes/messages.php:33
+msgid "Experiencia registrada."
+msgstr ""
+
+#: includes/messages.php:33
+msgid "Se ha guardado la experiencia."
+msgstr ""
+
+#: includes/messages.php:34 includes/messages.php:35
+msgid "Sin resultados."
+msgstr ""
+
+#: includes/messages.php:34
+msgid "No hay empleados que coincidan con tu búsqueda."
+msgstr ""
+
+#: includes/messages.php:36 includes/ajax-functions.php:89
+msgid "Disponibilidad actualizada correctamente."
+msgstr ""
+
+#: includes/messages.php:36 includes/messages.php:38
+msgid "Los datos se han guardado."
+msgstr ""
+
+#: includes/messages.php:37
+msgid "Hubo un problema al actualizar la disponibilidad."
+msgstr ""
+
+#: includes/messages.php:38 includes/ajax-functions.php:126
+msgid "Estado del bar actualizado correctamente."
+msgstr ""
+
+#: includes/messages.php:39
+msgid "Hubo un problema al actualizar el estado del bar."
+msgstr ""
+
+#: includes/messages.php:40
+msgid "Error de comunicación."
+msgstr ""
+
+#: includes/messages.php:40
+msgid "No se pudo contactar con el servidor."
+msgstr ""
+
+#: includes/messages.php:41
+msgid "El año debe tener 4 cifras."
+msgstr ""
+
+#: includes/messages.php:41
+msgid "Introduce un año válido."
+msgstr ""
+
+#: includes/messages.php:42
+msgid "Selecciona un nombre válido."
+msgstr ""
+
+#: includes/messages.php:42 includes/messages.php:46
+msgid "Elige una opción de la lista."
+msgstr ""
+
+#: includes/messages.php:43
+msgid "Selecciona una posición válida."
+msgstr ""
+
+#: includes/messages.php:43 includes/messages.php:44
+msgid "Usa la ayuda de autocompletado."
+msgstr ""
+
+#: includes/messages.php:44
+msgid "Selecciona un bar válido."
+msgstr ""
+
+#: includes/messages.php:45
+msgid "Selecciona un año válido."
+msgstr ""
+
+#: includes/messages.php:45
+msgid "Usa un formato de cuatro cifras."
+msgstr ""
+
+#: includes/messages.php:46
+msgid "Selecciona una zona válida."
+msgstr ""
+
+#: includes/messages.php:58
+msgid "Aviso"
+msgstr ""
+
+#: includes/messages.php:64
+msgid "Info"
+msgstr ""
+
+#: includes/messages.php:70
+msgid "Éxito"
+msgstr ""
+
+#: includes/messages.php:221
+msgid "Aviso no configurado"
+msgstr ""
+
+#: includes/shortcodes.php:102 includes/shortcodes.php:341
+msgid "Debes iniciar sesión para acceder a esta página."
+msgstr ""
+
+#: includes/shortcodes.php:114
+#, php-format
+msgid "¡Hola, %s!"
+msgstr ""
+
+#: includes/shortcodes.php:120
+msgid "Gracias por colaborar con el Proyecto CdB."
+msgstr ""
+
+#: includes/shortcodes.php:184 templates/form-experiencia-template.php:202
+msgid "Aún no has registrado ninguna experiencia laboral."
+msgstr ""
+
+#: includes/shortcodes.php:193
+msgid "Tu empleado:"
+msgstr ""
+
+#: includes/shortcodes.php:197
+msgid "Actualizar Disponibilidad:"
+msgstr ""
+
+#: includes/shortcodes.php:199 public/form-empleado.php:66
+#: templates/form-empleado-template.php:90
+msgid "Sí"
+msgstr ""
+
+#: includes/shortcodes.php:200 public/form-empleado.php:67
+#: templates/form-empleado-template.php:91
+msgid "No"
+msgstr ""
+
+#: includes/shortcodes.php:204 public/form-empleado.php:71
+#: public/form-bar.php:56 templates/form-bar-template.php:42
+msgid "Actualizar"
+msgstr ""
+
+#: includes/shortcodes.php:224
+msgid "Puntuación de Experiencia:"
+msgstr ""
+
+#: includes/shortcodes.php:360
+msgid "No tienes un perfil de empleado registrado."
+msgstr ""
+
+#: includes/shortcodes.php:421
+msgid "Debes iniciar sesión para ver tu puntuación."
+msgstr ""
+
+#: includes/shortcodes.php:433
+msgid "No se encontró un empleado asociado a este usuario."
+msgstr ""
+
+#: includes/shortcodes.php:443
+msgid "Puntuación Gráfica:"
+msgstr ""
+
+#: includes/shortcodes.php:678
+msgid "Error: No se ha proporcionado una posición válida."
+msgstr ""
+
+#: includes/shortcodes.php:852
+msgid "No se encontraron bares con puntuación total."
+msgstr ""
+
+#: includes/shortcodes.php:912
+msgid "No se encontraron bares con reputación (gmaps)."
+msgstr ""
+
+#: includes/shortcodes.php:972
+msgid "No se encontraron bares con reputación (tripadvisor)."
+msgstr ""
+
+#: includes/shortcodes.php:1032
+msgid "No se encontraron bares con reputación (instagram)."
+msgstr ""
+
+#: includes/ajax-functions.php:69 includes/ajax-functions.php:106
+msgid "No tienes permisos para realizar esta acción."
+msgstr ""
+
+#: includes/ajax-functions.php:72 includes/ajax-functions.php:109
+#: includes/ajax-functions.php:179 includes/form-handler.php:30
+msgid "Error de seguridad."
+msgstr ""
+
+#: includes/ajax-functions.php:75 includes/ajax-functions.php:112
+msgid "Datos inválidos."
+msgstr ""
+
+#: includes/ajax-functions.php:84 includes/form-handler.php:213
+msgid "No tienes permisos para editar este empleado."
+msgstr ""
+
+#: includes/ajax-functions.php:91
+msgid "Error al actualizar la disponibilidad."
+msgstr ""
+
+#: includes/ajax-functions.php:121
+msgid "No tienes permisos para editar este bar."
+msgstr ""
+
+#: includes/ajax-functions.php:128
+msgid "Error al actualizar el estado del bar."
+msgstr ""
+
+#: includes/ajax-functions.php:143
+msgid "Bar ID no proporcionado."
+msgstr ""
+
+#: includes/ajax-functions.php:151
+msgid "No se encontraron fechas para este bar."
+msgstr ""
+
+#: includes/ajax-functions.php:176
+msgid "No tienes permisos."
+msgstr ""
+
+#: includes/ajax-functions.php:234
+msgid "Experiencia guardada correctamente."
+msgstr ""
+
+#: includes/ajax-functions.php:236 includes/form-handler.php:120
+msgid "No se pudo guardar la experiencia."
+msgstr ""
+
+#: includes/ajax-functions.php:253
+msgid "No tienes permisos (no logueado)."
+msgstr ""
+
+#: includes/ajax-functions.php:256
+msgid "Error de seguridad (nonce)."
+msgstr ""
+
+#: includes/ajax-functions.php:259
+msgid "ID de experiencia no proporcionado."
+msgstr ""
+
+#: includes/ajax-functions.php:271
+msgid "No tienes permiso para eliminar esa experiencia."
+msgstr ""
+
+#: includes/ajax-functions.php:283
+msgid "Experiencia eliminada correctamente."
+msgstr ""
+
+#: includes/ajax-functions.php:285
+msgid "No se pudo eliminar la experiencia."
+msgstr ""
+
+#: includes/ajax-functions.php:300
+msgid "Debes iniciar sesión para ver la experiencia."
+msgstr ""
+
+#: includes/ajax-functions.php:342
+msgid "Borrar"
+msgstr ""
+
+#: includes/ajax-functions.php:350
+msgid "No tienes experiencia registrada aún."
+msgstr ""
+
+#: includes/ajax-functions.php:367 includes/ajax-functions.php:397
+#: includes/ajax-functions.php:426
+msgid "Debe iniciar sesión."
+msgstr ""
+
+#: includes/ajax-functions.php:371 includes/ajax-functions.php:401
+#: includes/ajax-functions.php:430
+msgid "Nonce incorrecto"
+msgstr ""
+
+#: includes/init.php:46 includes/init.php:48
+msgid "No Disponible"
+msgstr ""
+
+#: includes/init.php:48
+msgid "Disponible"
+msgstr ""
+
+#: includes/init.php:51 templates/form-bar-template.php:32
+msgid "Estado:"
+msgstr ""
+
+#: includes/post-types.php:22 includes/post-types.php:24
+#: templates/busqueda-empleados-table.php:11
+msgid "Posiciones"
+msgstr ""
+
+#: includes/post-types.php:23 includes/post-types.php:25
+#: templates/busqueda-empleados.php:21
+msgid "Posición"
+msgstr ""
+
+#: includes/post-types.php:26
+msgid "Añadir Nueva"
+msgstr ""
+
+#: includes/post-types.php:27
+msgid "Añadir Nueva Posición"
+msgstr ""
+
+#: includes/post-types.php:28
+msgid "Nueva Posición"
+msgstr ""
+
+#: includes/post-types.php:29
+msgid "Editar Posición"
+msgstr ""
+
+#: includes/post-types.php:30
+msgid "Ver Posición"
+msgstr ""
+
+#: includes/post-types.php:31
+msgid "Todas las Posiciones"
+msgstr ""
+
+#: includes/post-types.php:32
+msgid "Buscar Posiciones"
+msgstr ""
+
+#: includes/post-types.php:33
+msgid "No se encontraron posiciones"
+msgstr ""
+
+#: includes/post-types.php:34
+msgid "No se encontraron posiciones en la papelera"
+msgstr ""
+
+#: includes/post-types.php:67
+msgid "Valor de Puntuación"
+msgstr ""
+
+#: includes/post-types.php:90
+msgid "Valor de Puntuación:"
+msgstr ""
+
+#: includes/post-types.php:144 templates/busqueda-empleados-table.php:9
+#: templates/busqueda-bares-table.php:9
+msgid "Puntuación"
+msgstr ""
+
+#: includes/form-handler.php:37 includes/form-handler.php:140
+msgid "Debes iniciar sesión para completar este formulario."
+msgstr ""
+
+#: includes/form-handler.php:43
+msgid "Todos los campos son obligatorios."
+msgstr ""
+
+#: includes/form-handler.php:58
+msgid "No tienes permisos para editar este perfil."
+msgstr ""
+
+#: includes/form-handler.php:81
+msgid "Error al registrar la experiencia."
+msgstr ""
+
+#: includes/form-handler.php:116
+msgid "Experiencia registrada correctamente."
+msgstr ""
+
+#: includes/form-handler.php:154
+msgid "El nombre es obligatorio."
+msgstr ""
+
+#: includes/form-handler.php:168
+msgid "Ya tienes un perfil de empleado. No puedes crear más de uno."
+msgstr ""
+
+#: includes/form-handler.php:199
+msgid "Perfil de empleado creado correctamente."
+msgstr ""
+
+#: includes/form-handler.php:202
+msgid "Error al crear el perfil."
+msgstr ""
+
+#: includes/form-handler.php:209
+msgid "Empleado no válido."
+msgstr ""
+
+#: includes/form-handler.php:221
+msgid "Perfil de empleado actualizado correctamente."
+msgstr ""
+
+#: public/form-empleado.php:53
+msgid ""
+"No tienes un perfil de empleado. Crea uno antes de actualizar tu "
+"disponibilidad."
+msgstr ""
+
+#: public/form-empleado.php:64
+msgid "¿Estás disponible?"
+msgstr ""
+
+#: public/form-bar.php:34
+msgid "No tienes un bar registrado. Crea uno antes de actualizar su estado."
+msgstr ""
+
+#: public/form-bar.php:45
+msgid "Estado del Bar:"
+msgstr ""
+
+#: public/form-bar.php:47 templates/form-bar-template.php:34
+msgid "Abierto todo el año"
+msgstr ""
+
+#: public/form-bar.php:48 templates/form-bar-template.php:35
+msgid "Abierto temporalmente"
+msgstr ""
+
+#: public/form-bar.php:49 templates/form-bar-template.php:36
+msgid "Cerrado temporalmente"
+msgstr ""
+
+#: public/form-bar.php:50 templates/form-bar-template.php:37
+msgid "Cerrado permanente"
+msgstr ""
+
+#: public/form-bar.php:51 templates/form-bar-template.php:38
+msgid "Traspaso"
+msgstr ""
+
+#: public/form-bar.php:52 templates/form-bar-template.php:39
+msgid "Desconocido"
+msgstr ""
+
+#: templates/form-bar-template.php:29
+msgid "Nombre del Bar:"
+msgstr ""
+
+#: templates/busqueda-bares.php:20 templates/busqueda-bares-table.php:11
+msgid "Zona"
+msgstr ""
+
+#: templates/busqueda-bares.php:22 templates/busqueda-empleados-table.php:13
+#: templates/busqueda-empleados.php:25 templates/busqueda-bares-table.php:12
+msgid "Año"
+msgstr ""
+
+#: templates/busqueda-bares.php:23 templates/busqueda-empleados.php:26
+msgid "Filtrar"
+msgstr ""
+
+#: templates/busqueda-bares.php:24 templates/busqueda-empleados.php:27
+msgid "Limpiar"
+msgstr ""
+
+#: templates/busqueda-bares.php:29 templates/busqueda-empleados.php:32
+msgid "Cargando..."
+msgstr ""
+
+#: templates/busqueda-empleados-table.php:12
+msgid "Bares"
+msgstr ""
+
+#: templates/form-experiencia-template.php:13
+#: templates/form-empleado-template.php:13
+msgid "Debes iniciar sesión para gestionar tu empleado."
+msgstr ""
+
+#: templates/form-experiencia-template.php:209
+msgid "Actualizar Experiencia Laboral"
+msgstr ""
+
+#: templates/busqueda-empleados.php:23
+msgid "Bar"
+msgstr ""
+
+#: templates/form-empleado-template.php:30
+msgid "Actualizar Empleado"
+msgstr ""
+
+#: templates/form-empleado-template.php:38
+msgid "Crear Empleado"
+msgstr ""
+
+#: templates/form-empleado-template.php:85
+msgid "Nombre:"
+msgstr ""
+
+#: templates/form-empleado-template.php:88
+msgid "Disponible:"
+msgstr ""
+
+#: test.php:5
+msgid "Debes iniciar sesión."
+msgstr ""
+
+#: admin/config-mensajes.php:275
+msgid "Oculto"
+msgstr "Oculto"
+
+#: admin/config-mensajes.php:295
+msgid "Mostrar aviso"
+msgstr "Mostrar aviso"
+
+#: admin/menu.php:36
+msgid "Diseño del formulario"
+msgstr "Diseño del formulario"
+
+#: admin/menu.php:45
+msgid "Mensajes y avisos"
+msgstr "Mensajes y avisos"
