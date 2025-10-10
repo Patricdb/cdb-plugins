@@ -1,0 +1,149 @@
+/* Estilos para el formulario de ofertas de empleo */
+.cdb-oferta-form {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.cdb-oferta-form h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.cdb-oferta-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.cdb-oferta-form select,
+.cdb-oferta-form input[type="text"],
+.cdb-oferta-form input[type="datetime-local"],
+.cdb-oferta-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cdb-oferta-form button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cdb-oferta-form button:hover {
+    background-color: #444;
+}
+
+/* Mensajes de respuesta del formulario */
+#cdb_oferta_mensaje {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-left: 4px solid #333;
+}
+
+/* ============================
+   Estilos para el Listado de Ofertas
+   ============================ */
+
+/* Contenedor principal del listado */
+.ofertas-archive {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Grid de ofertas */
+.ofertas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Cada tarjeta o card de oferta */
+.oferta-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Imagen destacada de la oferta */
+.oferta-thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Título de la oferta */
+.oferta-title {
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Información meta (Bar, Posición, Tipo, Fechas) */
+.oferta-meta p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Extracto o breve descripción */
+.oferta-excerpt {
+    margin: 10px 0;
+    font-size: 0.95em;
+}
+
+/* Enlace para ver la oferta completa */
+.oferta-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.oferta-link:hover {
+    background-color: #444;
+}
+
+/* Estilos forzados para el menú de autocompletado de jQuery UI */
+body .ui-autocomplete {
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+    max-height: 200px !important;
+    overflow-y: auto !important;
+    z-index: 9999 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+body .ui-autocomplete li {
+    list-style: none !important;
+    padding: 5px 10px !important;
+    cursor: pointer !important;
+    display: block !important;
+    background-color: #fff !important;
+    color: #333 !important;
+}
+
+body .ui-autocomplete li.ui-state-focus,
+body .ui-autocomplete li:hover {
+    background-color: #f0f0f0 !important;
+    color: #333 !important;
+}
