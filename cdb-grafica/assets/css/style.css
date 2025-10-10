@@ -1,0 +1,18 @@
+/* Estilos básicos del plugin CdB_grafica */
+body {
+    font-family: var(--cdb-font-family, Arial, sans-serif);
+}
+
+.cdb-scores-legend {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin: 8px 0 12px;
+}
+
+.cdb-scores-legend .role i {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    display: inline-block;
+}

@@ -1,0 +1,73 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
+function cdb_get_criterios_empleado() {
+    return array (
+  'DIE (Dirección)' => 
+  array (
+    'direccion' => 
+    array (
+      'label' => 'Dirección',
+      'descripcion' => 'Guiar al equipo hacia los objetivos comunes.',
+    ),
+  ),
+  'SAL (Sala)' => 
+  array (
+    'camarero' => 
+    array (
+      'label' => 'Camarero',
+      'descripcion' => 'Atender y servir a los clientes en sala.',
+    ),
+  ),
+  'TES (Técnica Sala)' => 
+  array (
+    'venta' => 
+    array (
+      'label' => 'Venta',
+      'descripcion' => 'Capacidades comerciales de venta.',
+    ),
+  ),
+  'ATC (Atención al Cliente)' => 
+  array (
+    'satisfaccion' => 
+    array (
+      'label' => 'Satisfacción',
+      'descripcion' => 'Garantizar una experiencia positiva para el cliente.',
+    ),
+  ),
+  'TEQ (Trabajo en Equipo)' => 
+  array (
+    'cooperacion' => 
+    array (
+      'label' => 'Cooperación',
+      'descripcion' => 'Colaborar para lograr objetivos comunes.',
+    ),
+  ),
+  'ORL (Orden y Limpieza)' => 
+  array (
+    'orden' => 
+    array (
+      'label' => 'Orden',
+      'descripcion' => 'Organizar el espacio y tareas de forma eficiente.',
+    ),
+  ),
+  'TEC (Técnica de Cocina)' => 
+  array (
+    'cocina_local' => 
+    array (
+      'label' => 'Cocina Local',
+      'descripcion' => 'Dominar técnicas culinarias locales.',
+    ),
+  ),
+  'COC (Cocina)' => 
+  array (
+    'cocinero' => 
+    array (
+      'label' => 'Cocinero',
+      'descripcion' => 'Encargarse de la preparación de platos principales.',
+    ),
+  ),
+);
+}

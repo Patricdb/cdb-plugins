@@ -1,0 +1,1 @@
+console.log("CdB_grafica: main.js cargado correctamente.");

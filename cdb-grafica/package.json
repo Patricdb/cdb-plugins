@@ -1,0 +1,15 @@
+{
+  "name": "cdb-grafica",
+  "version": "1.0.0",
+  "scripts": {
+    "build:bar": "wp-scripts build src/bar/index.js --output-path=build/bar",
+    "start:bar": "wp-scripts start src/bar/index.js --output-path=build/bar",
+    "build:empleado": "wp-scripts build src/empleado/index.js --output-path=build/empleado",
+    "start:empleado": "wp-scripts start src/empleado/index.js --output-path=build/empleado",
+    "build": "npm run build:bar && npm run build:empleado",
+    "start": "npm run start:bar & npm run start:empleado"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^23.0.0"
+  }
+}

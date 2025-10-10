@@ -1,0 +1,183 @@
+/* Estilos para la tabla con acordeón */
+:root {
+    --cdb-accordion-bg: #FAF8EE;
+    --cdb-accordion-border: #cdb888;
+    --cdb-accordion-hover: #cdb121;
+    --cdb-form-bg: #FAF8EE;
+    --cdb-form-border: #cdb888;
+    --cdb-table-header-bg: #cdb121;
+    --cdb-table-header-color: #000000;
+    --cdb-font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: var(--cdb-font-family, Arial, sans-serif);
+}
+.accordion {
+    margin: 1em 0; /* Margen superior e inferior */
+    border: 1px solid var(--cdb-accordion-border);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.accordion-header {
+    background-color: var(--cdb-accordion-bg); /* Fondo blanco */
+    padding: 10px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid var(--cdb-accordion-border);
+    color: #000; /* Texto negro */
+    font-weight: bold;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+}
+
+.accordion-header:hover {
+    background-color: var(--cdb-accordion-hover); /* Fondo más oscuro al pasar el ratón */
+}
+
+.accordion-header .accordion-toggle {
+    all: unset;
+    display: block;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px;
+    background-color: var(--cdb-accordion-bg); /* Fondo blanco */
+}
+
+.accordion-item.open > .accordion-content { display: block; }
+.accordion-item.open > .accordion-header { background:#000; color:#fff; }
+
+.accordion-content label {
+    display: block;
+    margin: 0.5em 0;
+}
+
+.accordion-content input {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid var(--cdb-accordion-border);
+    border-radius: 3px;
+}
+
+/* Añadir márgenes alrededor del formulario */
+form {
+    margin: 3em auto 2em auto; /* 3em arriba, 2em abajo */
+    max-width: 800px; /* Ancho máximo para centrar el formulario */
+    padding: 1em; /* Espaciado interno */
+    background-color: var(--cdb-form-bg); /* Fondo blanco */
+    border: 1px solid var(--cdb-form-border); /* Borde ligero */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.cdb-grafica-scores td.is-numeric {
+    font-variant-numeric: tabular-nums;
+}
+
+.cdb-scores-legend {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin: 8px 0 12px;
+}
+
+.cdb-scores-legend .role i {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.cdb-readonly .accordion-item{ background:#faf7ef;border:1px solid rgba(0,0,0,.08);border-radius:10px;margin-bottom:10px; }
+.cdb-readonly .accordion-header{ padding:12px 14px; }
+.cdb-readonly .accordion-content{ padding:10px 14px 14px; }
+.cdb-readonly-row{ display:flex; align-items:center; justify-content:space-between; gap:12px; padding:8px 0; }
+.cdb-readonly-label{ font-weight:600; }
+.cdb-score-pills{ display:flex; gap:8px; }
+.cdb-score-pill{ display:inline-flex; align-items:center; justify-content:center; min-width:2.6ch; height:1.9em; padding:0 .55ch; border-radius:6px; font-weight:700; line-height:1; font-variant-numeric:tabular-nums; border:1px solid currentColor; }
+.cdb-score-pill.is-empty{ opacity:.75; }
+@media (max-width:480px){ .cdb-readonly-row{ flex-wrap:wrap; } }
+
+/* Colores por columnas de la tabla de puntuaciones */
+.col-emp { background: var(--color-empleado); }
+.col-empdr { background: var(--color-empleador); }
+.col-tutor { background: var(--color-tutor); }
+
+/* Título de la tabla de calificaciones */
+.cdb-scores-title { font-weight:700; text-align:left; margin-bottom:4px; }
+
+/* Estilos para la tabla de promedios */
+.cdb-grafica-scores {
+    border-collapse: collapse;
+}
+
+.cdb-grafica-scores th,
+.cdb-grafica-scores td {
+    padding:.25em .5em;
+}
+
+.cdb-grafica-scores th.criterio-cell {
+    text-align:left;
+    padding-left:0;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.cdb-grafica-scores th.criterio-cell small { margin:2px 0 0; }
+
+.cdb-grafica-scores .group-header th,
+.cdb-grafica-scores .group-header td {
+    background: var(--cdb-table-header-bg);
+    color: var(--cdb-table-header-color);
+    font-weight:700;
+    padding:.25em .5em;
+}
+.cdb-grafica-scores .group-header th {
+    padding-left:0;
+    text-align:left;
+}
+.cdb-grafica-scores .group-header .score-cell {
+    text-align:center;
+}
+.cdb-grafica-scores .group-toggle {
+    all:unset;
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    background:none;
+    border:0;
+    display:block;
+    width:100%;
+    text-align:left;
+    cursor:pointer;
+    position:relative;
+    padding-left:2em;
+}
+
+.cdb-grafica-scores .group-toggle::before {
+    content:"\25B6";
+    position:absolute;
+    left:.4em;
+    top:50%;
+    transform:translateY(-50%);
+    transition:transform .2s;
+}
+.cdb-grafica-scores tbody.is-open .group-toggle::before {
+    transform:translateY(-50%) rotate(90deg);
+}
+
+.cdb-grafica-scores tbody:not(.is-open) tr:not(.group-header) { display:none; }
+.cdb-grafica-scores .score-cell { text-align:center; }
+
+.cdb-grafica-scores .col-emp,
+.cdb-grafica-scores .col-empdr,
+.cdb-grafica-scores .col-tutor { width:3ch; }
+.cdb-grafica-scores .col-criterio { width:auto; }
