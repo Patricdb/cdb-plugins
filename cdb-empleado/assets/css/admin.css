@@ -1,0 +1,27 @@
+#cdb-empleado-preview {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    color: var(--ink, #000);
+    background: linear-gradient(180deg, #f5e8c8, #efe1b4);
+}
+#cdb-empleado-preview .cdb-preview-title {
+    margin-top: 0;
+}
+#tarjeta_oct_bg_svg_display {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tarjeta_oct_bg_svg_display svg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+}
