@@ -1,0 +1,27 @@
+/* Sobreescribir estilos predeterminados */
+body.login form#loginform {
+    border-radius: 20px !important; /* Usa un valor alto para probar */
+    background: #fff !important;
+    padding: 20px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    overflow: hidden !important;
+    border: 1px solid #ddd !important;
+}
+
+/* Asegurar que el botón también tenga bordes redondeados */
+body.login .button-primary {
+    border-radius: 20px !important;
+}
+
+/* Asegurar que los campos de entrada tengan bordes redondeados */
+body.login input[type="text"],
+body.login input[type="password"],
+body.login input[type="email"] {
+    border-radius: 5px !important;
+}
+
+/* Ajustar la caja contenedora */
+body.login #login {
+    padding: 20px !important;
+    border-radius: 20px !important;
+}
