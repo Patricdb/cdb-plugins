@@ -1,0 +1,5 @@
+.cdb-aviso{ padding:10px 15px; margin:15px 0; }
+.cdb-mensaje-destacado{ font-weight:700; display:block; }
+.cdb-mensaje-secundario{ display:block; font-size:.9em; }
+#cdb-eventos-tipos .form-table td input[type="text"]{ width:100%; }
+.cdb-preview-cell .cdb-aviso{ margin:0; }

@@ -1,0 +1,11 @@
+/* Basic styles for CdB Eventos plugin */
+.cdb-eventos-lista {
+    margin: 0;
+    padding: 0;
+}
+.cdb-evento-item {
+    margin-bottom: 2rem;
+}
+.cdb-evento-inscrito-item {
+    margin-bottom: 2rem;
+}
